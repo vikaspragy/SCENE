@@ -3,10 +3,11 @@
   <groupId>br.ufes.inf.lprm</groupId>
   <artifactId>scene-core</artifactId>
   <versioning>
-    <release>0.8.0</release>
+    <release>0.9.5.6</release>
     <versions>
       <version>0.8.0</version>
+      <version>0.9.5.6</version>
     </versions>
-    <lastUpdated>20130815042440</lastUpdated>
+    <lastUpdated>20130902023743</lastUpdated>
   </versioning>
 </metadata>
