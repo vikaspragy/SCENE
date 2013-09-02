@@ -30,6 +30,7 @@
 					<branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
 					<includes><include>**/*</include></includes>
 					<merge>true</merge>
+					<server>github</server>
 					<repositoryName>SCENE</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>pereirazc</repositoryOwner>    <!-- github username  -->
 				</configuration>
