@@ -57,7 +57,7 @@
 				  <include>./src/br/ufes/inf/lprm/sinos/commom/*</include>
 				  <include>./src/br/ufes/inf/lprm/sinos/channel/*</include>			  
 				</includes>
-			  </configuration>		  
+			  </configuration>
 			</plugin>
 		  </plugins>
 		</build>
