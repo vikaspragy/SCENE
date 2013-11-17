@@ -53,9 +53,9 @@
 			  <configuration>
 				<classifier>publisher</classifier>
 				<includes>
-				  <include>./src/br/ufes/inf/lprm/sinos/publisher/*</include>
-				  <include>./src/br/ufes/inf/lprm/sinos/commom/*</include>
-				  <include>./src/br/ufes/inf/lprm/sinos/channel/*</include>			  
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/publisher/*</include>
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/commom/*</include>
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/channel/*</include>			  
 				</includes>
 			  </configuration>		  
 			</plugin>
@@ -79,9 +79,9 @@
 			  <configuration>
 				<classifier>subscriber</classifier>
 				<includes>
-				  <include>./src/br/ufes/inf/lprm/sinos/subscriber/*</include>
-				  <include>./src/br/ufes/inf/lprm/sinos/commom/*</include>
-				  <include>./src/br/ufes/inf/lprm/sinos/channel/*</include>			  
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/subscriber/*</include>
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/commom/*</include>
+				  <include>./src/main/java/br/ufes/inf/lprm/sinos/channel/*</include>			  
 				</includes>
 			  </configuration>
 			</plugin>
