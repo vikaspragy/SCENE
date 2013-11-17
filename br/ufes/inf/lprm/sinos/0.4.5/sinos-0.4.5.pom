@@ -48,16 +48,17 @@
 				</executions>
 			</plugin>
 			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-jar-plugin</artifactId>
-			  <version>2.4</version>
+			  <version>2.3.2</version>
 			  <configuration>
 				<classifier>publisher</classifier>
 				<includes>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/publisher/*</include>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/commom/*</include>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/channel/*</include>			  
-				</includes>
-			  </configuration>		  
+				  <include>br/ufes/inf/lprm/sinos/publisher/*</include>
+				  <include>br/ufes/inf/lprm/sinos/commom/*</include>
+				  <include>br/ufes/inf/lprm/sinos/channel/*</include>			  
+				</includes>	
+			  </configuration>
 			</plugin>
 		  </plugins>
 		</build>
@@ -74,14 +75,15 @@
 		<build>
 		  <plugins>
 			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-jar-plugin</artifactId>
-			  <version>2.4</version>
+			  <version>2.3.2</version>
 			  <configuration>
 				<classifier>subscriber</classifier>
 				<includes>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/subscriber/*</include>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/commom/*</include>
-				  <include>./src/main/java/br/ufes/inf/lprm/sinos/channel/*</include>			  
+				  <include>br/ufes/inf/lprm/sinos/subscriber/*</include>
+				  <include>br/ufes/inf/lprm/sinos/commom/*</include>
+				  <include>br/ufes/inf/lprm/sinos/channel/*</include>			  
 				</includes>
 			  </configuration>
 			</plugin>
