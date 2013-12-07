@@ -13,6 +13,9 @@
 	<profiles>
 	  <profile>
 		<id>publisher</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
 		<build>
 		  <plugins>
 			<plugin>
